@@ -1,0 +1,7 @@
+services:
+  api:
+    build: ./helpdesk-api
+    ports:
+      - "4000:4000"
+    env_file:
+      - ./helpdesk-api/.env
