@@ -41,5 +41,5 @@ export function registerListeners() {
       }
     });
   }
-  // More actions can subscribe here later (email, notifications, webhooks).
+  
 }
